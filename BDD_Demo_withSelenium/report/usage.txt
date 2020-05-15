@@ -1,0 +1,46 @@
+┌─────────────────────────────────────────────────┬───────────┬────────────────────────────────────────────────┐
+│ Pattern / Text                                  │ Duration  │ Location                                       │
+├─────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────┤
+│ I am on the create account page                 │ 2659.00ms │ features/step_definitions/create_account.js:11 │
+│   I am on the create account page               │ 2659ms    │ features/account.feature:7                     │
+├─────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────┤
+│ I have logged in                                │ 836.00ms  │ features/step_definitions/reserve.js:11        │
+│   I have logged in                              │ 836ms     │ features/reserver_item.feature:5               │
+├─────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────┤
+│ 我在登陆页面                                    │ 740.00ms  │ features/step_definitions/login.js:12          │
+│   我在登陆页面                                  │ 740ms     │ features/login.feature:6                       │
+├─────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────┤
+│ I accept the Terms and Conditions               │ 398.00ms  │ features/step_definitions/create_account.js:67 │
+│   I accept the Terms and Conditions             │ 398ms     │ features/account.feature:9                     │
+├─────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────┤
+│ 我输入我已有的账号并点击登陆                    │ 282.00ms  │ features/step_definitions/login.js:16          │
+│   我输入我已有的账号并点击登陆                  │ 282ms     │ features/login.feature:7                       │
+├─────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────┤
+│ I can see the error message on top              │ 157.00ms  │ features/step_definitions/create_account.js:82 │
+│   I can see the error message on top            │ 157ms     │ features/account.feature:11                    │
+├─────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────┤
+│ I click Reserve Item button                     │ 131.00ms  │ features/step_definitions/reserve.js:23        │
+│   I click Reserve Item button                   │ 131ms     │ features/reserver_item.feature:7               │
+├─────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────┤
+│ I create a new account using this taken email   │ 102.00ms  │ features/step_definitions/create_account.js:43 │
+│   I create a new account using this taken email │ 102ms     │ features/account.feature:8                     │
+├─────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────┤
+│ I am on the home page                           │ 55.00ms   │ features/step_definitions/reserve.js:19        │
+│   I am on the home page                         │ 55ms      │ features/reserver_item.feature:6               │
+├─────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────┤
+│ I click the create button                       │ 28.00ms   │ features/step_definitions/create_account.js:72 │
+│   I click the create button                     │ 28ms      │ features/account.feature:10                    │
+├─────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────┤
+│ 我登陆成功并看到页面上的欢迎信息                │ 20.00ms   │ features/step_definitions/login.js:23          │
+│   我登陆成功并看到页面上的欢迎信息              │ 20ms      │ features/login.feature:8                       │
+├─────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────┤
+│ I can see Item Reserved!                        │ 19.00ms   │ features/step_definitions/reserve.js:27        │
+│   I can see Item Reserved!                      │ 19ms      │ features/reserver_item.feature:8               │
+├─────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────┤
+│ the users with email 'user@example.com' exist   │ 1.00ms    │ features/step_definitions/create_account.js:15 │
+│   the users with email 'user@example.com' exist │ 1ms       │ features/account.feature:6                     │
+├─────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────┤
+│ I fill in all the required field                │ UNUSED    │ features/step_definitions/create_account.js:19 │
+├─────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────┤
+│ I can see the success message on top            │ UNUSED    │ features/step_definitions/create_account.js:77 │
+└─────────────────────────────────────────────────┴───────────┴────────────────────────────────────────────────┘

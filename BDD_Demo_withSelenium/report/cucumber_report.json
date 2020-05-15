@@ -1,0 +1,233 @@
+[
+  {
+    "description": "   I need to create a new account so that I can use freewheelers",
+    "keyword": "Feature",
+    "name": "create a new account",
+    "line": 1,
+    "id": "create-a-new-account",
+    "tags": [],
+    "uri": "features/account.feature",
+    "elements": [
+      {
+        "id": "create-a-new-account;i-can't-create-a-new-account-by-using-a-taken-email",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "I can't create a new account by using a taken email",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the users with email 'user@example.com' exist",
+            "match": {
+              "location": "features/step_definitions/create_account.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I am on the create account page",
+            "match": {
+              "location": "features/step_definitions/create_account.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2659000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I create a new account using this taken email",
+            "match": {
+              "location": "features/step_definitions/create_account.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 102000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I accept the Terms and Conditions",
+            "match": {
+              "location": "features/step_definitions/create_account.js:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 398000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click the create button",
+            "match": {
+              "location": "features/step_definitions/create_account.js:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I can see the error message on top",
+            "match": {
+              "location": "features/step_definitions/create_account.js:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 157000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "功能",
+    "name": "登陆",
+    "line": 3,
+    "id": "登陆",
+    "tags": [],
+    "uri": "features/login.feature",
+    "elements": [
+      {
+        "id": "登陆;使用已有账号登陆",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "使用已有账号登陆",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "当",
+            "line": 6,
+            "name": "我在登陆页面",
+            "match": {
+              "location": "features/step_definitions/login.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 740000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "而且",
+            "line": 7,
+            "name": "我输入我已有的账号并点击登陆",
+            "match": {
+              "location": "features/step_definitions/login.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 282000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "那么",
+            "line": 8,
+            "name": "我登陆成功并看到页面上的欢迎信息",
+            "match": {
+              "location": "features/step_definitions/login.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "   I can reserve something from freewheelers website",
+    "keyword": "Feature",
+    "name": "reserver item",
+    "line": 1,
+    "id": "reserver-item",
+    "tags": [],
+    "uri": "features/reserver_item.feature",
+    "elements": [
+      {
+        "id": "reserver-item;reserver-an-item-on-home-page",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "reserver an item on home page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I have logged in",
+            "match": {
+              "location": "features/step_definitions/reserve.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 836000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I am on the home page",
+            "match": {
+              "location": "features/step_definitions/reserve.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click Reserve Item button",
+            "match": {
+              "location": "features/step_definitions/reserve.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 131000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I can see Item Reserved!",
+            "match": {
+              "location": "features/step_definitions/reserve.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

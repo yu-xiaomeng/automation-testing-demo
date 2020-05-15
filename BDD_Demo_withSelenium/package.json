@@ -1,0 +1,20 @@
+{
+  "name": "bdd_demo_withselenium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.2.0",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  },
+  "dependencies": {
+    "chromedriver": "^80.0.0"
+  }
+}
