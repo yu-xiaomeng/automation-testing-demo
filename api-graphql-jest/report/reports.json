@@ -1,0 +1,93 @@
+{
+    "numFailedTestSuites": 0,
+    "numFailedTests": 0,
+    "numPassedTestSuites": 1,
+    "numPassedTests": 4,
+    "numPendingTestSuites": 0,
+    "numPendingTests": 0,
+    "numRuntimeErrorTestSuites": 0,
+    "numTodoTests": 0,
+    "numTotalTestSuites": 1,
+    "numTotalTests": 4,
+    "openHandles": [],
+    "snapshot": {
+        "added": 0,
+        "didUpdate": false,
+        "failure": false,
+        "filesAdded": 0,
+        "filesRemoved": 0,
+        "filesRemovedList": [],
+        "filesUnmatched": 0,
+        "filesUpdated": 0,
+        "matched": 0,
+        "total": 0,
+        "unchecked": 0,
+        "uncheckedKeysByFile": [],
+        "unmatched": 0,
+        "updated": 0
+    },
+    "startTime": 1589531991419,
+    "success": true,
+    "testResults": [{
+        "leaks": false,
+        "numFailingTests": 0,
+        "numPassingTests": 4,
+        "numPendingTests": 0,
+        "numTodoTests": 0,
+        "openHandles": [],
+        "perfStats": {
+            "end": 1589531998143,
+            "start": 1589531992197
+        },
+        "skipped": false,
+        "snapshot": {
+            "added": 0,
+            "fileDeleted": false,
+            "matched": 0,
+            "unchecked": 0,
+            "unmatched": 0,
+            "updated": 0,
+            "uncheckedKeys": []
+        },
+        "testFilePath": "{rootDir}/test/api/publish-presentation.test.js",
+        "testResults": [{
+            "ancestorTitles": ["发布我要分享时，"],
+            "duration": 1471,
+            "failureMessages": [],
+            "fullName": "发布我要分享时， 只填写主题、描述和分享人，发布成功",
+            "location": null,
+            "numPassingAsserts": 0,
+            "status": "passed",
+            "title": "只填写主题、描述和分享人，发布成功"
+        }, {
+            "ancestorTitles": ["发布我要分享时，"],
+            "duration": 1258,
+            "failureMessages": [],
+            "fullName": "发布我要分享时， 设置分享开始时间为现在之后1小时，发布成功",
+            "location": null,
+            "numPassingAsserts": 0,
+            "status": "passed",
+            "title": "设置分享开始时间为现在之后1小时，发布成功"
+        }, {
+            "ancestorTitles": ["发布我要分享时，"],
+            "duration": 1348,
+            "failureMessages": [],
+            "fullName": "发布我要分享时， 设置分享开始时间为现在之前2小时，发布失败",
+            "location": null,
+            "numPassingAsserts": 0,
+            "status": "passed",
+            "title": "设置分享开始时间为现在之前2小时，发布失败"
+        }, {
+            "ancestorTitles": ["发布我要分享时，"],
+            "duration": 1100,
+            "failureMessages": [],
+            "fullName": "发布我要分享时， 启用订餐，订餐截止时间晚于分享开始时间，发布失败",
+            "location": null,
+            "numPassingAsserts": 0,
+            "status": "passed",
+            "title": "启用订餐，订餐截止时间晚于分享开始时间，发布失败"
+        }],
+        "failureMessage": null
+    }],
+    "wasInterrupted": false
+}
